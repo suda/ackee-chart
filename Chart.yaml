@@ -1,0 +1,8 @@
+apiVersion: v1
+appVersion: "1.7.0"
+description: A Helm chart for Ackee analytics tool
+name: ackee-chart
+version: 0.1.0
+maintainers:
+  - name: Wojtek Siudzinski
+    email: admin@suda.pl
