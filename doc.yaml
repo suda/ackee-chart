@@ -7,7 +7,7 @@ repository:
   url: https://raw.githubusercontent.com/suda/ackee-chart/master
   name: ackee
 chart:
-  name: ackee
+  name: ackee-chart
 release:
-  name: ackee
+  name: ackee-release
   namespace: ackee

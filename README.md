@@ -7,7 +7,7 @@
 ```console
 $ helm repo add ackee https://raw.githubusercontent.com/suda/ackee-chart/master
 $ helm repo update
-$ helm install ackee/ackee -n ackee
+$ helm install ackee-release ackee/ackee-chart -n ackee
 ```
 
 ## Introduction
@@ -19,10 +19,10 @@ This chart deploys  on a [Kubernetes](http://kubernetes.io) cluster using the [H
 
 ## Installing the Chart
 
-To install the chart with the release name `ackee`:
+To install the chart with the release name `ackee-release`:
 
 ```console
-$ helm install ackee ackee/ackee -n ackee
+$ helm install ackee-release ackee/ackee-chart -n ackee
 ```
 
 The command deploys  on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
@@ -31,17 +31,17 @@ The command deploys  on the Kubernetes cluster in the default configuration. The
 
 ## Uninstalling the Chart
 
-To uninstall/delete the `ackee`:
+To uninstall/delete the `ackee-release`:
 
 ```console
-$ helm delete ackee -n ackee
+$ helm delete ackee-release -n ackee
 ```
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
 ## Configuration
 
-The following table lists the configurable parameters of the `ackee` chart and their default values.
+The following table lists the configurable parameters of the `ackee-chart` chart and their default values.
 
 |                          Parameter                          |                              Description                              |            Default            |
 |-------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------|
@@ -81,12 +81,12 @@ The following table lists the configurable parameters of the `ackee` chart and t
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example:
 
 ```console
-$ helm install ackee ackee/ackee -n ackee --set replicaCount=1
+$ helm install ackee-release ackee/ackee-chart -n ackee --set replicaCount=1
 ```
 
 Alternatively, a YAML file that specifies the values for the parameters can be provided while
 installing the chart. For example:
 
 ```console
-$ helm install ackee ackee/ackee -n ackee --values values.yaml
+$ helm install ackee-release ackee/ackee-chart -n ackee --values values.yaml
 ```
