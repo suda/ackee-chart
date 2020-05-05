@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  ackee-chart:
+  - apiVersion: v1
+    appVersion: 1.7.0
+    created: 2020-05-05T11:58:22.093137644+02:00
+    description: A Helm chart for Ackee analytics tool
+    digest: 6b3367ba1ffd9b9171f6a860a6bc076561eab5ecc041cc286d6c980819b34ada
+    maintainers:
+    - email: admin@suda.pl
+      name: Wojtek Siudzinski
+    name: ackee-chart
+    urls:
+    - https://github.com/suda/ackee-chart/releases/download/0.1.0/ackee-chart-0.1.0.tgz
+    version: 0.1.0
+generated: 2020-05-05T11:58:22.092809093+02:00
