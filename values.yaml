@@ -21,7 +21,7 @@ image:
   # Ackee Image name
   repository: electerious/ackee
   # Ackee Image tag
-  tag: 1.7.1
+  tag: 2.4.1
   # Image pull policy
   pullPolicy: IfNotPresent
 
