@@ -1,4 +1,4 @@
-# ackee [![](https://img.shields.io/static/v1.svg?label=Deploy%20on&message=DigitalOcean&color=blue)](https://www.digitalocean.com/products/kubernetes/?refcode=fef9487dad1e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste)
+# ackee [![](https://img.shields.io/static/v1.svg?label=Deploy%20on&message=DigitalOcean&color=blue)](https://www.digitalocean.com/products/kubernetes/?refcode=fef9487dad1e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) [![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/ackee)](https://artifacthub.io/packages/search?repo=ackee)
 
 [Ackee](https://ackee.electerious.com/) - Self-hosted analytics tool for those who care about privacy
 
